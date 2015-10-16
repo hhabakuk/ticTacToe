@@ -40,9 +40,9 @@ function makeList (gridValues) {
   board.append(itemsList); // append the list items to that class
  
 
-   $('.board').css({ "background-color": "yellow", "display": "inline-block", "width":"400px", "height":"400px", "margin":"auto" });
+   $('.board').css({ "background-color": "yellow", "display": "inline-block", "width":"400px", "height":"400px", "margin":"0px" });
   $('.board li').css({ "padding":"10px","font-family":"helvetica","font-size":"75px","background-color": "white", "display": "inline-block", "width":"1em", "height":"1em", "float":"left", "margin":"10px" });
-  $('.winner').css({"text-decoration":"underline", "list-style": "none","text-transform": "uppercase","padding":"10px","font-family":"helvetica","font-size":"75px","background-color": "white", "display": "inline-block", "width":"1em", "height":"1em", "margin":"100px", "z-index":"-200" });
+  $('.winner').css({"position": "relative","text-decoration":"underline", "list-style": "none","text-transform": "uppercase","padding":"10px","font-family":"helvetica","font-size":"75px","background-color": "white", "display": "inline-block", "width":"1em", "height":"1em", "margin":"10px", "z-index":"-200" });
 
  
 
